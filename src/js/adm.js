@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Verifica as credenciais
       if (usuario === "ADM123" && senha === "123456") {
-        window.location.href = 'http://127.0.0.1:5500/projeto/adm.html'; // Substitua 'pagina_admin.html' pelo nome da sua página de administrador
+        window.location.href = 'http://127.0.0.1:5500/Projeto/adm.html'; // Substitua 'pagina_admin.html' pelo nome da sua página de administrador
       } else {
         alert('Credenciais inválidas. Tente novamente.'); // Pode personalizar esta mensagem conforme necessário
       }
